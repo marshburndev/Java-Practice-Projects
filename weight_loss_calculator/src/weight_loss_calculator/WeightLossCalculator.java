@@ -93,6 +93,11 @@ public class WeightLossCalculator {
 		}
 	}
 	
+	public static void printStats(double BMI){//Test this in the AM
+			System.out.println("Your TDEE is: " +Math.round(TDEE));
+			System.out.println("Your BMI is: " + BMI);
+	}
+	
 	public static void calsToEat(double TDEE) {
 		double calsPerDay;
 		System.out.println("Calculating weight loss...");
